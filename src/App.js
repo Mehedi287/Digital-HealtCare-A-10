@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
+
+import Menu from './components/navbar/Menu';
+
 function App() {
   return (
     <div className="App">
-
+      <Menu></Menu>
       <Header></Header>
     </div>
   );
