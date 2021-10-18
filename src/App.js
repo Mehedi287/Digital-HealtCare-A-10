@@ -12,6 +12,7 @@ import Details from './components/details/Details';
 import Doctores from './components/doctors/Doctores';
 import NotFound from './components/notFound/NotFound';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
           </Route>
           <Route path="/details/:serviceId">
             <Details></Details>
+          </Route>
+          <Route path="/doctor">
+            <Doctores></Doctores>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

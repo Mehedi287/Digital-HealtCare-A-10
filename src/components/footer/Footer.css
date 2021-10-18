@@ -1,3 +1,8 @@
-.footer{
-    background-color: rgb(151, 123, 123);
+.footer{ 
+    
+    color:  rgb(241, 7, 46);
+    font-weight: 700;
+    background-color: rgba(3, 1, 15, 0.89);
+}
+.footer-img{ 
 }
