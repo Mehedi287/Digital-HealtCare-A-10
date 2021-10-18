@@ -7,7 +7,7 @@ const Services = (props) => {
     console.log(props);
     return (
         <>
-            <div className="service">
+            <div className="">
                 <h4>Name : {name}</h4>
                 <img className="rounded" src={img} alt="" />
                 <p>{details}</p>
