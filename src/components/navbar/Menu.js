@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
 import "./Navbar.css"
 const Menu = () => {
     return (
@@ -11,11 +12,11 @@ const Menu = () => {
                     <Navbar.Collapse className="d-gird justify-content-end">
 
                         <Nav className="mx-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#details">Details</Nav.Link>
-                            <Nav.Link href="#doctors">Doctors</Nav.Link>
-                            <Nav.Link href="#service">Service</Nav.Link>
-                            <Nav.Link href="#contact">Contact Us</Nav.Link>
+                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/details">Details</Nav.Link>
+                            <Nav.Link as={Link} to="/doctor">Doctors</Nav.Link>
+                            <Nav.Link as={Link} to="/contact#contact">Contact Us</Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                     <button className="btn text-white">Login</button>
