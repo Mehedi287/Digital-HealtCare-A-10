@@ -1,0 +1,44 @@
+[
+    {
+        "name": "X-Ray",
+        "id": 10000,
+        "details": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation. Most X-rays have a wavelength ranging from 10 picometers to 10 nanometers, corresponding to frequencies in the range 30 petahertz to 30 exahertz and energies in the range 124 eV to 124",
+        "price": "400$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzDT9jfDHTOwMOg245b7eg7lFzhEH7WrZFjQ&usqp=CAU"
+    },
+    {
+        "name": "ECG",
+        "id": 2000,
+        "details": "Electrocardiography is the process of producing an electrocardiogram. It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin.",
+        "price": "5600$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVzZ9ySKm2hmSrPNSPF9Wom5TWT7U42AfS4A&usqp=CAU"
+    },
+    {
+        "name": "MRI",
+        "id": 30000,
+        "details": "Magnetic resonance imaging is a medical imaging technique used in radiology to form pictures of the anatomy and the physiological processes of the body. MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to generate images of the organs in the body",
+        "price": "5400$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclk9NKc1KBXMqsjZ1KoQgdRmkBHlEVVLGwA&usqp=CAU"
+    },
+    {
+        "name": "Covid-19 Vaccine",
+        "id": 4000,
+        "details": "COVID-19 vaccines are safe, effective and built to save lives. Learn more about the benefits today. Fact-based content. Trusted information. Highlights: Donation Option Available, Media Room Available, Newsletter Available.",
+        "price": "4522$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbM2B78LtG5AV4z_M2Fe-HuDt8Gclr-y64A&usqp=CAU"
+    },
+    {
+        "name": "Blood Test",
+        "id": 50000,
+        "details": "Blood tests help doctors check for certain diseases and conditions. They also help check the function of your organs and show how well treatments are working. Specifically, blood tests can help doctors: Evaluate how well organs—such as the kidneys, liver, thyroid, and heart—are working",
+        "price": "5000$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFOUwvPfPITCfQaXdrekKox6kRSzvdn8DIbw&usqp=CAU"
+    },
+    {
+        "name": "ICU Unite",
+        "id": 6000,
+        "details": "Intensive care units (ICUs) are areas of the hospital where seriously ill patients receive specialized care such as intensive monitoring and advanced life support. These units are also called critical care units, intensive therapy units, or intensive treatment units.",
+        "price": "5500025$",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWYYtCwUWSpSVA4GQ-wOGTuNMy7V1A0pwHQ&usqp=CAU"
+    }
+]
