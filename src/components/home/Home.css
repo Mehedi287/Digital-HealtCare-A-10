@@ -2,3 +2,8 @@
     height: 400px!important;
     margin-top: 10px;
 }
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
