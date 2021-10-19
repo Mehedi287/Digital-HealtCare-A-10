@@ -4,7 +4,7 @@ const Doctores = () => {
     return (
         <>
 
-            <div id="doctors" className="mt-5 d-flex row">
+            <div id="doctors" className="doctors mt-5 d-flex row container-fluid mx-auto">
                 <h2 className="text-center align-items-center justify-content-center">Our Doctors</h2>
                 <div className="col-md-3">
                     <img className="img-fluid m-2 rounded doctor" src="https://image.freepik.com/free-photo/portrait-smiling-male-doctor_171337-1532.jpg" alt="" />

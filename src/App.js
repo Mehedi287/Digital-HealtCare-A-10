@@ -13,37 +13,45 @@ import Doctores from './components/doctors/Doctores';
 import NotFound from './components/notFound/NotFound';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
+import AuthProvider, { AuthContext } from './Context/AuthProvider';
+import SignUp from './components/singUp/SignUp';
+import PrivetRoute from './components/PrivetRote/PrivetRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Menu></Menu>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/details/:serviceId">
-            <Details></Details>
-          </Route>
-          <Route path="/doctor">
-            <Doctores></Doctores>
-          </Route>
-          <Route path="/contact">
-            <Contact></Contact>
-          </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Menu></Menu>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/singup">
+              <SignUp></SignUp>
+            </Route>
+            <PrivetRoute path="/details/:serviceId">
+              <Details></Details>
+            </PrivetRoute>
+            <Route path="/doctor">
+              <Doctores></Doctores>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
 
     </div>
   );

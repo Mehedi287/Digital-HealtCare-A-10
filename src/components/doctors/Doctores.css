@@ -1,6 +1,12 @@
-#doctors{
+.doctors{
     align-items: center;
-    height: 80vh;
+    height: 75vh;
+}
+@media only screen and (max-width:688px) {
+    .doctors{
+        height: 100%;
+    }
+    
 }
 .doctor{
     transition: 0.5s all;
