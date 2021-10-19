@@ -16,11 +16,11 @@ const Home = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100 h-50 img-fluid"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbM2B78LtG5AV4z_M2Fe-HuDt8Gclr-y64A&usqp=CAU"
+                        src="https://image.freepik.com/free-photo/closeup-shot-covid19-vaccine-bottles-with-needle-blue-surface_181624-51204.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h3>Covid-19 Vaccine</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -31,8 +31,8 @@ const Home = () => {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Preshure Machine</h3>
+                        <p>Provide By Doctors Mk Jhon</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -42,8 +42,8 @@ const Home = () => {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Operation Therater </h3>
+                        <p>Our Operation Room.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

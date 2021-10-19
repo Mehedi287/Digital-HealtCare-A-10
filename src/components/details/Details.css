@@ -1,0 +1,12 @@
+.details{
+    padding: 15px;
+   margin: 100px auto;
+    width: 600px;
+    height:70vh;
+    border: 1px solid floralwhite;
+    border-radius: 20px;
+    
+}
+.details:hover{
+    box-shadow: rgb(182, 106, 119) 0px 3px 8px;
+}

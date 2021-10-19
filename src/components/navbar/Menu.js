@@ -13,7 +13,7 @@ const Menu = () => {
 
                         <Nav className="mx-auto">
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/details">Details</Nav.Link>
+
                             <Nav.Link as={Link} to="/doctor">Doctors</Nav.Link>
                             <Nav.Link as={Link} to="/contact#contact">Contact Us</Nav.Link>
 

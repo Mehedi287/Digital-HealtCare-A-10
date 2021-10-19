@@ -4,7 +4,7 @@ import "./Services.css"
 const Services = (props) => {
 
     const { name, id, img, details, price } = props.service;
-    console.log(props);
+
     return (
         <>
             <div className="service">

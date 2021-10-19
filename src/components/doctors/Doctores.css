@@ -1,0 +1,10 @@
+#doctors{
+    align-items: center;
+    height: 80vh;
+}
+.doctor{
+    transition: 0.5s all;
+}
+.doctor:hover{
+    box-shadow: rgb(182, 106, 119) 0px 3px 8px;
+}
