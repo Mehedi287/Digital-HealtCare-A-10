@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 import "./Login.css"
 const Login = () => {
@@ -34,7 +35,8 @@ const Login = () => {
                         <span class="button-82-front text">
                             Login
                         </span>
-                    </button>
+                    </button><br /><br />
+                    <Link to="/singup">New User?</Link>
                 </form>
             </div>
         </div>

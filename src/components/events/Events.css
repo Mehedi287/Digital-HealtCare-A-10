@@ -1,0 +1,11 @@
+.events{
+   margin-top: 150px;
+}
+.hr{
+    border: 3px solid firebrick;
+    border-radius: 5px;
+    width: 250px;
+    height: 5px;
+    color: rgb(15, 15, 12);
+    margin: 10px auto;
+}

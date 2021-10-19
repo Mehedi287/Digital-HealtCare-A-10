@@ -17,6 +17,7 @@ const Menu = () => {
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
                             <Nav.Link as={Link} to="/doctor">Doctors</Nav.Link>
                             <Nav.Link as={Link} to="/contact#contact">Contact Us</Nav.Link>
+                            <Nav.Link as={Link} to="/events">Events</Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>
@@ -34,6 +35,7 @@ const Menu = () => {
                     {
                         user.email && <p>Mehedi Hasan</p>
                     }
+
 
 
 

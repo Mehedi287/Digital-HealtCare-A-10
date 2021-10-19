@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 import './SingUp.css'
 const SignUp = () => {
@@ -34,10 +35,13 @@ const SignUp = () => {
                         <span class="button-82-front text">
                             Sing Up
                         </span>
-                    </button>
+                    </button> <br />
+                    ____________or___________ <br />
+                    <button className="btn btn-primary" onClick={signInWithGoogle}>Google Sing In </button> <br /><br />
+                    <Link to="/login">Already Have A Account?</Link>
                 </form>
             </div>
-        </div>
+        </div >
     );
 };
 

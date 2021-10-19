@@ -1,11 +1,8 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/header/Header';
-
 import Menu from './components/navbar/Menu';
 import Home from './components/home/Home';
-import Services from './components/services/Services';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from './components/login/Login';
 import Details from './components/details/Details';
@@ -16,6 +13,7 @@ import Contact from './components/contact/Contact';
 import AuthProvider, { AuthContext } from './Context/AuthProvider';
 import SignUp from './components/singUp/SignUp';
 import PrivetRoute from './components/PrivetRote/PrivetRoute';
+import Events from './components/events/Events';
 
 function App() {
   return (
@@ -29,6 +27,9 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/events">
+              <Events></Events>
             </Route>
             <Route path="/login">
               <Login></Login>
